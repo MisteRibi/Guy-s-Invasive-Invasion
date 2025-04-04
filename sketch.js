@@ -24,13 +24,13 @@ function draw() {
     }
     if(mode === WIN_GAME) {
         fill(255);
-        text("You Win!", width/2-100, height/2);
+        text("You're a wonderfull, fantastic and perfect person!", width/2-275, height/2);
         text("Press 'R' to restart", width/2-100, height/2 + 40);
         text("Total Shots: " + shotsFired + "    Score: " + totalScore, 0,40);
     }
     if(mode === GAME_OVER) {
         fill(255);
-        text("You Lost!", width/2-40, height/2);
+        text("Unfortunately, bad Guy got you!", width/2-160, height/2);
         text("Press 'R' to restart", width/2-100, height/2 + 40);
         text("Total Shots: " + shotsFired + "    Score: " + totalScore, 0,40);
     }
