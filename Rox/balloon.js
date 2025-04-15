@@ -37,7 +37,8 @@ function Balloon (x, y, color, char) {
     }
 
     this.hits = function(obj) {
+        // obj can be drops and ship
         var d = dist(this.x, this.y, obj.x, obj.y);
-        return d < this.r + obj.r/3;
+        return d < this.r + obj.r;
     }
 }
