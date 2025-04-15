@@ -30,7 +30,7 @@ function draw() {
         text("Each Guy faces needs "+BALLOON_HEALTH+" hits to pop. Pop them all before they get you!",
             width/2 - 270, height/2 + 40);
         text("Press Enter or touch screen the screen to Begin...", width/2 - 200, height/2 + 80);
-        text("I ❤️ you so much 🫶", width/2 - 100, height - 10);
+        text("Jay", width/2 - 100, height - 10);
         textSize(28);
     }
     if (mode === WIN_GAME || mode === GAME_OVER) {
