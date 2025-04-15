@@ -20,7 +20,7 @@ function Drop (x, y) {
 
     this.hits = function (obj) {
         var d = dist(this.x, this.y, obj.x, obj.y);
-        return d < this.r + obj.r;
+        return d < this.r + obj.r*2;
     }
 
     this.evaporate = function (drops, index) {
