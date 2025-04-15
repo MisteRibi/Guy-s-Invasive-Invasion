@@ -142,7 +142,9 @@ function keyPressed(){
 }
 
 function windowResized() {
-    resizeCanvas(windowWidth, windowHeight);
+    if (mode != game) {
+        resizeCanvas(windowWidth, windowHeight);
+    }
 }
 
 // touch started
