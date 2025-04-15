@@ -142,8 +142,10 @@ function keyPressed(){
 }
 
 function windowResized() {
-    if (mode != game) {
+    if (mode != GAME) {
         resizeCanvas(windowWidth, windowHeight);
+    } else {
+        //mode = MAIN_MENU;
     }
 }
 
